@@ -1,11 +1,16 @@
 
 var countPositives = 0;
 var numbers = [3, 4, -2, 7, 16, -8, 0];
-
-// your code here!
+// var onlyPosNum = [];
 
 for(i=0; i<numbers.length; i++)
 {
-    %2
+    if(numbers[i]>0)
+    {
+        countPositives = countPositives + 1;
+        // onlyPosNum.push(numbers[i]);
+
+    }
 }
 console.log("there are " + countPositives + " positive values");
+// console.log(onlyPosNum);
