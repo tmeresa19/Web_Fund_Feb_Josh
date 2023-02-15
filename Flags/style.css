@@ -1,0 +1,19 @@
+
+.red{
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px;     
+}
+.white{
+    height: 400px;
+    width: 300px;        
+    display: inline-block;   
+}
+.blue{
+    background-color: blue;
+    height: 400px;
+    width: 300px;        
+    display: inline-block;
+}

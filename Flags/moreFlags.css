@@ -1,0 +1,14 @@
+
+.flag{
+    background-color: green;
+    height: 300px;
+    width: 600px;
+}
+.red-circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
