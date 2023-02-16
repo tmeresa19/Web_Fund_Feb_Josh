@@ -1,0 +1,44 @@
+.container{
+height: 600px;
+width: 550px;
+border: solid;
+display: flex;
+}
+.left-col {
+height: 600px ;
+width: 150px;
+border: solid;
+}
+.side-nav-1{
+height: 220px;
+border: solid;
+}
+.side-nav-2 {
+height: 140px;    border: solid;
+    background-color: blue;
+}
+.top-red{
+    height: 450px;
+    border: solid;
+    width: 400px;
+    background-color: red;
+}
+.bottom-white{
+    display: flex;
+}
+.bottom-left {
+    width: 370px;
+    border: solid;
+    height: 140px;
+}
+.bottom-right1{
+    min-height: 70px;
+    border: solid;
+    width: 24px;
+}
+.bottom-right2{
+    /* width: 100px; */
+    background-color: yellow;
+    min-height: 70px;
+}
+
