@@ -46,3 +46,7 @@
 img {
     height: 260px;
 }
+h1{
+    align-self: center;
+    padding: 10px;
+}
