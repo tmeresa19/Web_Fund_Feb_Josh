@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+    <!--=====================navbar or Header======================== -->
+
+    <div class="main-nav-bar">
+        <div class="sub-navbar">
+            <div class="nav-text">
+                <h1>Profile</h1>
+                <h3 class="transparent">Home</h3>
+                <h3>My Profile</h3>
+                <h3 class="transparent">Find Connections</h3>
+            </div>
+            <button class="sign-out-button btn" >Sign Out</button>
+        </div>
+    </div>
+    <div class="container">
+        <!--=====================Left Partition=========================-->
+        <div class="left-column">
+            <!-- ==============Profile Box============ -->
+            <div class="profile-box">
+                <div class="profile">
+                    <img src="images/jane-m.jpg" alt="Jane Doe Pic " class="jane-img" />
+                </div>
+                <div class="profile-details">
+                    <h2>Jane Doe</h2>
+                    <div class="location">
+                        <img src="icons/map-marker.png" alt="Map Marker" class="map-gear-img" />
+                        <h3>Seattle</h3>
+                    </div>
+                    <p>
+                        Developer | Engineer | Problem Solver <br />
+                        Master of shadows and the Internet!
+                    </p>
+                    <div>
+                        <img src="icons/gear.png" alt="Gear" class="map-gear-img" />
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ============Education Box==================== -->
+            <div class="education">
+                <div class="education-text">Education</div>
+                <div class="education-details">
+                    <h3>
+                        Coding Dojo - Full Stack Bootcamp <br />
+                        Dec 2019 - Mar 2020
+                    </h3>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <!-- ====================Right Partition======================= -->
+        <div class="right-column">
+            <!-- ====================Connection Request Box========================= -->
+            <div class="connection-request-box">
+                <div class="connection-request">
+                    <p class="request-notification">2</p>
+                    <!-- <div class="request-notification">2</div> -->
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="request">
+                    <div class="request-list">
+                        <img src="images/todd-s.jpg" alt="Todd E" class="users-img" />
+                        Todd E
+                    </div>
+                    <div class="request-tick-x">
+                        <img src="icons/accept-circle.png" alt="accept or deny" class="accept-img" />
+                        <img src="icons/close-circle.png" alt="accept or deny" class="close-img" />
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="request-list">
+                        <img src="images/phil-s.jpg" alt="Phil K" class="users-img" />
+                        Phil K
+                    </div>
+                    <div class="request-tick-x">
+                        <img src="icons/accept-circle.png" alt="accept or deny" class="accept-img" />
+                        <img src="icons/close-circle.png" alt="accept or deny" class="close-img" />
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="request-tick-x"></div>
+                </div>
+            </div>
+            <!-- ========================Your Connections Box======================= -->
+            <div class="your-connections">
+                <div class="your-connections-notification">
+                    <div class="request-notification">500+</div>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="connection">
+                    <div class="request-list">
+                        <img src="images/adrien-s.jpg" alt="Adrien D" class="users-img" />
+                        Adrien D
+                    </div>
+                    <div class="request-list">
+                        <img src="images/anne-s.jpg" alt="Anne J" class="users-img" />
+                        Anne J
+                    </div>
+                    <div class="request-list">
+                        <img src="images/alayne-s.jpg" alt="Alayne T" class="users-img" />
+                        Alayne T
+                    </div>
+                    <div class="request-list">
+                        <img src="images/arry-s.jpg" alt="Arry Y" class="users-img" />
+                        Arry Y
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
