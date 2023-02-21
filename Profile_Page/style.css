@@ -18,7 +18,7 @@ body {
     width: 100%;
     background-color: black;
     justify-content: center;
-
+    margin-bottom: 20px;
 }
 
 .sign-out-button {
@@ -50,7 +50,6 @@ body {
     opacity: 70%;
 }
 
-/* can also be done using a hover */
 .btn {
     margin-left: 20%;
     width: 90px
@@ -107,9 +106,6 @@ body {
 .profile-details {
     margin-top: 60px;
     padding: 25px;
-    gap: 10px;
-    /* flex-direction: column; */
-    /* need to use only to stack elements together ....not going with flex*/
 }
 
 .map-gear-img {
@@ -133,11 +129,13 @@ body {
 }
 
 /*====================RIGHT PARTITION=======================*/
+
 .right-column {
     flex: 1
 }
 
 /* ===================Connection Request Box=================== */
+
 .connection-request-box {
     width: 100%;
     height: 200px;
@@ -198,6 +196,7 @@ body {
 }
 
 /* ==========================Your Connections Box====================== */
+
 .your-connections {
     width: 100%;
     height: 350px;
@@ -222,7 +221,7 @@ body {
 }
 
 .view-more {
-
+/* fix the percentage */
     border-top: solid #D1D1D1 3px;
     padding: 20px;
     height: 250px;

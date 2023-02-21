@@ -1,4 +1,4 @@
-console.log("Checking if JS is linked and working...");
+// console.log("Checking if JS is linked and working...");
 
 // Solutions for the 3 questions asked:
 
