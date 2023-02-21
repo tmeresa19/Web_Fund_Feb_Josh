@@ -4,15 +4,16 @@ console.log("Checking if JS is linked and is working...");
 
 // 1. Change the text to say "Logout" when clicking the "Login" button
 
-function logOut() {
-    document.querySelector("#loginbutton").innerText = 'LogOut'
+function logOut(element) {
+    // document.querySelector("#loginbutton").innerText = 'LogOut'
+    element.innerText = 'LogOut'
 }
 
 // 2. Remove the "Add Definition" button when it is clicked 
-function removeAddDefinition() {
-    // element.remove()
+function removeAddDefinition(element) {
+    element.remove()
     // document.querySelector("#adddefinition").remove()"
-    document.querySelector("#adddefinition").style.visibility = "hidden";
+    // document.querySelector("#adddefinition").style.visibility = "hidden";
 }
 
 // 3. Alert "Ninja was liked" when clicking a like button
