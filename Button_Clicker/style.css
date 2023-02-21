@@ -19,8 +19,10 @@
     background-color: dodgerblue;
     color: white;
     border: solid black;
-    padding: 5px;
-    height: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 25px;
+    box-shadow: 2px 2px black;
 
 }
 

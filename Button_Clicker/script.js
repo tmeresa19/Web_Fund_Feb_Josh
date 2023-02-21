@@ -6,7 +6,13 @@ console.log("Checking if JS is linked and working...");
 
 function logOut(element) {
     // document.querySelector("#loginbutton").innerText = 'LogOut'
-    element.innerText = 'LogOut'
+    if (element.innerText =='LogOut'){
+        element.innerText ='Login'
+    }
+    else {
+        element.innerText = 'LogOut'
+    }
+
 }
 
 // 2. Remove the "Add Definition" button when it is clicked 
