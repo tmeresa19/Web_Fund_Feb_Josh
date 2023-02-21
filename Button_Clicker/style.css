@@ -12,13 +12,16 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 10px;
 }
 
-navbar button {
+.btn {
     background-color: dodgerblue;
     color: white;
     border: solid black;
     padding: 5px;
+    height: 30px;
+
 }
 
 .noun-btn-like button {
@@ -72,4 +75,11 @@ navbar button {
     padding: 5px;
     box-shadow: black;
     margin-left: 15px;
+}
+.ninja-definition{
+    padding: 20px;
+}
+
+.ninja-noun{
+    padding: 20px;
 }

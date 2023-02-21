@@ -63,7 +63,7 @@ var splitedArr = []
 
 function reverseWord() {
     for (var i = 0; i < pokémon.length; i++) {
-        if (pokémon[i].types[0] == 'poison' && pokémon[i].types.length==1) {
+        if (pokémon[i].types[0] == 'poison' && pokémon[i].types.length == 1) {
             splitedArr.push(pokémon[i].name);
             // console.log(pokémon[i].name.split('').reverse().join().replaceAll(',','').toLowerCase())
         }

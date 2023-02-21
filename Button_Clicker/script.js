@@ -1,4 +1,4 @@
-console.log("Checking if JS is linked and is working...");
+console.log("Checking if JS is linked and working...");
 
 // Solutions for the 3 questions asked:
 
@@ -17,5 +17,7 @@ function removeAddDefinition(element) {
 }
 
 // 3. Alert "Ninja was liked" when clicking a like button
-    // done inline
+    function alertMessage(){
+        alert("Ninja was liked!")
+    }
     
