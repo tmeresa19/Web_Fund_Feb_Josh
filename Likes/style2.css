@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 10px;
+}
+.main {
+    margin: 0 auto;
+    margin-left: 200px;
+    border: 3px solid;
+    width:70%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.col-1{
+    flex: .7;
+    height: 250px;
+    border: 2px solid black;
+    border: 1px solid;
+}
+.col-2{
+    flex:2;
+    height: 500px;
+}
+.feed{
+    border:3px solid;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.main img{
+    width: 70px;
+    padding: 50px;
+}
+.profile{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.top-child{
+    flex:1
+}
+.top-child-1{
+    flex:4
+}
+.top-content{
+    display:flex
+}
+a{
+    display: block;
+}
+.feed button{
+    width: 50px;
+    height: 30px;
+    box-shadow: black;
+}
+button{
+    background-color: orange;
+    border: 3px solid black;
+    box-shadow: black;
+}

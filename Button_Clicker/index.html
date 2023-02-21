@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" id="searchbar" value="" placeholder="search">
+        <div class="btn">
+            <button onclick="logOut(this)" id="loginbutton">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-col-partition">
+            <div class="ninja-noun">
+                <div class="noun-btn-like">
+                    <h1>ninja</h1>
+                    <p>noun <br>
+                        Plural:ninjas
+                    </p>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="ninja-definition">
+                    <p>A practitioner skilled in the <br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="ninja-noun">
+                <div class="noun-btn-like">
+                    <h1>ninja</h1>
+                    <p>noun <br>
+                        Plural:ninjas
+                    </p>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="ninja-definition">
+                    <p>A practitioner skilled in the <br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="right-col-partition">
+            <div>
+                <div class="add-definition">
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button onclick="removeAddDefinition(this)" id="adddefinition">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

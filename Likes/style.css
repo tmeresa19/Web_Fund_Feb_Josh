@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.feed {
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.top-child {
+    flex: 1
+}
+.top-child-1 {
+    flex: 4
+}
+.top-content {
+    display: flex
+}
+button {
+    background-color: orange;
+    width: 20px;
+    height: 30px;
+    box-shadow: black;
+    border: solid black ;
+}

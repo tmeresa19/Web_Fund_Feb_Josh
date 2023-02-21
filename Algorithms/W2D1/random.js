@@ -45,5 +45,22 @@ var randomLifesAnswers = [
     // "My sources say no.",
     "Outlook not so good.",
     "Very doubtful."
+    
 ];
 console.log(randomArrayResponse(randomLifesAnswers))
+
+
+
+function oracle() {
+    // return arr[Math.floor(Math.random() * arr.length)] 
+    // or
+    return arr[Math.ceil(Math.random() * arr.length - 1)]
+    var answer= 
+}
+
+var randomLifesAnswers = [
+    "It is certain.",
+    "Outlook not so good.",
+    "Very doubtful."
+
+];

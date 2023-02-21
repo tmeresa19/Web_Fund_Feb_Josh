@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ======================navbar================== */
+.navbar{
+    background-color: aqua;
+    outline: dashed;
+    min-height: 100px ;
+}
+.main-navbar{
+width:1000px
+background-color: bisque;
+display: flex;
+}
+.primary-navbar{
+
+}
+.secondary-navbar{
+
+}
+/* =============================Main Container============= */
+.container{
+
+}
+/* ===============header=============== */
+.header{
+
+}
+.left-header{
+
+}
+.right-header{
+
+}
+/* ==================Main-2 Cols================ */
+.flex-cols{
+
+}
+.aside{
+    
+}
+.main-content{
+
+}
