@@ -1,0 +1,45 @@
+/* ===============Resetter======================= */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+/* ================nav-bar================== */
+.navbar{
+    background-color: bisque;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.left-col{
+    background-color: antiquewhite;
+    flex: 1;
+    height: 300px;
+}
+.right-col{
+    background-color: darkslategray;
+    flex: 3;
+    height: 700px;
+}
+.like-boxes{
+    background-color: cornflowerblue;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    width: 100px;
+}
