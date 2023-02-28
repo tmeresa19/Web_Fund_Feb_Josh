@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Bootstrap Example1</title>
+    <!-- load Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- Optional JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body> 
+    <div class="container">
+      <!-- =========================row section=========== -->
+      <div class="row">
+        <div class="col-lg-8 col-sm-12 bg-success text-center text-light p-2">
+          One
+        </div>
+        <div class="col-lg-4 col-sm-12 bg-primary text-center text-light p-2">
+          Two
+        </div>
+      </div>
+
+<!-- ==================table starts============= -->
+
+        <div class="row">
+          <div class="col">
+
+            <table class="table table-striped mt-3">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Location</th>
+                  <th>Occupation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Kermit</td>
+                  <td>35</td>
+                  <td>Backstage</td>
+                  <td>Variety</td>
+                </tr>
+                <tr>
+                  <td>Kermit</td>
+                  <td>35</td>
+                  <td>Backstage</td>
+                  <td>Variety</td>
+                </tr>
+                <tr>
+                  <td>Kermit</td>
+                  <td>35</td>
+                  <td>Backstage</td>
+                  <td>Variety</td>
+                </tr>
+                <tr>
+                  <td>Kermit</td>
+                  <td>35</td>
+                  <td>Backstage</td>
+                  <td>Variety</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col">
+            <div class="card shadow">
+              <div class="card-header bg-primary">
+                <h5 class="mb-0">Muppet Details</h5>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima nostrum sapiente id quibusdam nesciunt doloremque,
+                  fugit non natus, similique dolores ipsam? Minus?
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- ==================table ends============= -->
+<!-- ==================form starts============= -->
+
+      <div class="row">
+        <div class="col">
+          <div class="card mb-5 mt-3 shadow">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label for="firstName" class="form-label">First Name: </label>
+                  <input type="text" name="name" id="firstName" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">Last Name: </label>
+                  <input type="text" name="name" id="lastName" class="form-control ">
+                </div>
+                <div class="mb-3">
+                  <label for="location" class="form-label">Location:</label>
+                  <select name="location" id="location" class="form-select">
+                    <option value="chicago">Chicago</option>
+                    <option value="los angeles">Los Angels</option>
+                  </select>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button class="btn btn-success">Submit</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- ==================form ends============= -->
+
+    </div>
+  </body>
+</html>

@@ -7,3 +7,4 @@ console.log("outside of the loop " + i);
 
 i=0->3,4,7,
 i=1->7->10
+
