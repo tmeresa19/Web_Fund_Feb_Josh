@@ -1,95 +1,212 @@
-.parallax {
-    /* The image used */
-    background-image: url("christopher-gower-m_HRfLhgABo-unsplash (1).jpg");
+*,
+body {
+    padding: 0;
+    margin: 0
+}
 
-    /* Set a specific height */
-    min-height: 500px;
+.mycontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.sub-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
 }
 
 .bgimg-1,
 .bgimg-2,
-.bgimg-3 {
+.bgimg-3,
+.bgimg-4 {
     position: relative;
-    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
-}
-.bgimg-1 {
-    background-image: url(./images/alienware-Hpaq-kBcYHk-unsplash.jpg);
+    background-size: cover;
     min-height: 300px;
-    height:200px
-}
-.bgimg-2 {
-    background-image: url(./images/christopher-gower-m_HRfLhgABo-unsplash.jpg);
-    min-height: 300px;
-    height: 200px
-}
-.bgimg-3 {
-    background-image: url(./images/christina-wocintechchat-com-5UHFPbvBBzY-unsplash.jpg);
-    min-height: 300px;
-    height: 200px
-}
-.header{
-    height:300px;
-    background-color: black;
-    text-align: center;
-    color:white;
     display: flex;
 }
-.header img{
+
+.bgimg-1 {
+    background-image: url(./images/pic1.jpg);
+}
+
+.bgimg-2 {
+    background-image: url(./images/pic1best.jpg);
+}
+
+.bgimg-3 {
+    background-image: url(./images/pic2.jpg);
+}
+
+.bgimg-4 {
+    background-image: url(./images/pic2.jpg);
+}
+
+/* .header {
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+} */
+
+.footerimage {
+    width: 100px;
+    max-height: 100px;
+    padding: 20px;
+}
+
+.footerItem {
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    font-size: 2em;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: 9EAAAF; */
+    text-align: center;
+}
+
+.h4 {
+    /* padding: 20px; */
+}
+
+.footerimages {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    /* background-color:; */
+}
+
+.greyrow {
+    min-height: 600px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme {
+    height: 500px;
+    background-image: url(./images/720p.jpg);
+}
+.aboutmetext{
+    flex:0.8 !important;
+    gap: 20px;
+}
+.header img {
     width: 200px;
     border-radius: 100%;
 }
-.about-me{
+.eig{
+    width: 90%;
+    display: flex;
+}
+.item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    max-width:468px;
+    max-width: 468px;
     word-wrap: break-word;
 }
-.aboutme-image{
+
+.centergrey {
+    background-color: grey;
     display: flex;
-        flex: 1;
-        align-items: center;
-        justify-content: center;
-}
-.navbar{
-    position: fixed;
-    background-color:cadetblue;
-    
-}
-.contain{margin-top: 60px;}
-.navbar-brand{
-    color: white;
-}
-.nav-link{
-    color: white;
-}
-.for-cols{
-    display: flex;
-        flex: 1;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
+    justify-content: center;
 }
 
-.footer-flex {
-    background-color:lightslategray;
-    display: flex;
-    justify-content: space-evenly;
-    height: 165px;
-    margin-top: 20px
+.column {
+    flex-direction: column;
+    color: white
 }
+
+.aboutme-image {
+    width: 370px;
+    border-radius: 100%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.mynavbar {
+    position: fixed;
+    background-color:cornflowerblue;
+    z-index: 10000;
+    height: 90px;
+    width: 100%;
+    display: flex;
+
+}
+
+.flexitem {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+
+}
+
+.contain {
+    margin-top: 60px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 5%
+}
+
+.navlinkimg {
+    width: 30px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+}
+
+.for-cols {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.carousel-inner {
+    height: 100%;
+}
+
 .img-with-title {
     display: flex;
     flex-direction: column;
@@ -104,3 +221,112 @@
     height: 100px;
 }
 
+.container-fluid img {
+    width: 50px;
+    border-radius: 100%;
+    /* height: 50px; */
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+/* .footer {} */
+
+/* .carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.text {
+    display: none;
+}
+
+.end {
+    justify-content: flex-end;
+    flex: 1;
+    justify-content: space-between;
+    color: white
+}
+
+.w-100 {
+    width: 90px !important;
+}
+
+/* .carousel {
+    width: 100%;
+    height: 100%;
+} */
+.carousel-item {
+    height: 32rem;
+    background-color: darkgray;
+    color: white;
+    position: relative;
+
+}
+
+.containerr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+
+}
+
+.carousel {
+    width: 65%;
+    height: 100%;
+}
+
+.flexitem {
+    width: 100%;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.footerItem {
+    cursor: pointer;
+}
+.company-image{
+    width: 50px;
+}
+.companyContainer{
+    display: flex;
+    max-width: 60%;
+    width: 60%;
+    min-height: 300px;
+    gap:20%
+}
+.company{
+    padding: 70px 0;
+    gap:30px
+}
+.company-image{
+    width: 90px;
+    height: 90px;
+}
+.company-text{
+    flex:4
+}

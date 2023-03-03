@@ -1,292 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <!-- ==================Navbar begins============ -->
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Home TM</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >About</a
-                    >
-                  </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Technology</a>
-                  </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
 
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Portfolio
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Project1</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Project2</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Project3</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <!-- ====================Navbar ends======================= -->
+<body>
+  <div class="mycontainer">
+    <div class="mynavbar">
+      <div class="flexitem">
+        <h1 onclick="scrolling(0)">
+          <img src="./images/home.png" class="navlinkimg" alt="Home" />
+          Tigist Meresa
 
-          <!-- =======================Add my image with a black background and some animation on my pic and with some description about me==== -->
-
-          <!-- =================Parallex (Container element)=============== -->
-          <div class="contain">
-            <div class="header">
-              <div class="about-me">
-                <h2>About me</h2>
-                <p>My name is Tigist Meresa. I live in Seattle area</p>
-              </div>
-              <div class="aboutme-image">
-                <img src="./images/ProfilePic_Work.png" alt="" />
-              </div>
-            </div>
-
-            <div class="bgimg-1"></div>
-            <div class="header">
-              <div class="about-me">
-                <h2>Technologies</h2>
-                <p>List technologies I know...</p>
-              </div>
-              <div class="aboutme-image">
-                <p>List technologies I know... ...</p>
-              </div>
-            </div>
-            <div class="bgimg-2"></div>
-
-            <!-- =============second about me========= -->
-
-            <!-- ==================Accordiun begins================== -->
-            <h2 class="bg-secondary text-light mt-3">Experience</h2>
-
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Experience #1
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Experience #2
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Experience #3
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element.
-                    <code>.accordion-body</code>, though the transition does
-                    limit overflow.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- ==============Accordiun ends================== -->
-
-            <!-- ===============Carousel Begins============== -->
-
-            <div
-              id="carouselExampleAutoplaying"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="..." />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <!-- =============Carousel ends======================== -->
-        </div>
+        </h1>
       </div>
-
-      <div class="contact-me">
-        <div class="title">
-          <h2>Contact me</h2>
-        </div>
-        <div class="footer-flex">
-          <div class="img-with-title">
-            <img src="images/github.png" alt="Github_Image" />
-          </div>
-          <div class="img-with-title">
-            <img src="images/linkedin.png" alt="linkedin" />
-          </div>
-          <div class="img-with-title">
-            <img src="images/www-or-demo.png.crdownload" alt="WWW" />
-          </div>
-          <div class="img-with-title">
-            <img src="images/gmail.png" alt="Mail" />
-          </div>
-          <div class="img-with-title">
-            <img src="images/pdf.png" alt="PDF" />
-          </div>
-        </div>
+      <div class="flexitem end">
+        <h3 onclick="scrolling(100)">
+          <img src="./images/avatar.jpg" class="navlinkimg" alt="About_Me" />
+          About
+        </h3>
+        <h3 onclick="scrolling(240)">Projects</h3>
+        <h3 onclick="scrolling(800)">Experience</h3>
+        <h3 onclick="scrolling(1400)" class="navlink">
+          <img src="./images/educationIcon.png.crdownload" class="navlinkimg" alt="education" />
+          Education
+        </h3>
+        <h3 onclick="scrolling(2000)">Contact</h3>
       </div>
     </div>
-    <!-- ================JS script begins======================= -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="sub-container">
+      <div class="bgimg-1 aboutme">
+        <div class="flexitem center">
+          <img class="aboutme-image" src="./images/MyProfilePic3.png" />
+        </div>
+        <div class="flexitem center column">
+          <h1>Tigist Meresa</h1>
+          <h3>Software Engineer</h3>
+        </div>
+      </div>
+      <!-- <div class="bgimg-1">
+        <div class="flexitem center">
+          <h1>Projects</h1>
+        </div>
+      </div> -->
+      <div class="bgimg-1 greyrow ">
+        <div class="eig">
+          <div class="flexitem center column aboutmetext">
+            <h1>About me</h1>
+            <h3>Software Engineer based in Seattle, WA. I came to USA to study my masters degree in Information Systems
+              at University of Virginia and graduated in 2007. My first project was at Microsoft in Redmond, WA. I have
+              always admired the potential for technology and have been interested in learning more about it. Currently,
+              I joined Coding Dojo bootcamp to further upgrade my technical skills and join back the tech industries
+              where I have been working for a while as Systems Admin. My goals are to focus on clean code and newest
+              technologies.
+            </h3>
+          </div>
+          <!-- =================Carousel============== -->
+
+          <div class="flexitem center column">
+            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="myCarousel" data-slide-to="0" class="active"> </li>
+                <li data-target="myCarousel" data-slide-to="1"> </li>
+                <li data-target="myCarousel" data-slide-to="2"> </li>
+
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="overlay-image" style="background-image:url(./images/pic1.jpg)">
+                  </div>
+                  <div class="containerr">
+                    <h2>Headline</h2>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="overlay-image" style="background-image:url(./images/pic2.jpg)">
+                  </div>
+                  <div class="containerr">
+                    <h2>Headline</h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="overlay-image" style="background-image:url(./images/pic1best.jpg)">
+                  </div>
+                  <div class="containerr">
+                    <h2>Headline</h2>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+                <span class="span carousel-control-prev-icon" aria-hidden="true"></span>
+                <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                  <span class="sr-only">Next</span>
+                  <span class="span carousel-control-next-icon" aria-hidden="true"></span>
+
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bgimg-2">
+        <div class="flexitem center">
+          <h1>Here are some of the projects I have built</h1>
+          <!-- fix the text visibility============== -->
+        </div>
+      </div>
+
+      <div class="bgimg-1 greyrow">
+        <div class="flexitem center">
+          <!-- <img class="aboutme-image" src="./images/ProfilePic_Work.png" /> -->
+        </div>
+        <div class="flexitem center column">
+          <h1>Placeholder to list future projects</h1>
+          <!-- need to add the height to accommodate more proojects -->
+          <p></p>
+        </div>
+      </div>
+
+      <div class="bgimg-3">
+        <div class="flexitem center">
+          <h1 >Experience</h1>
+        </div>
+      </div>
+      <div class="bgimg-1 greyrow">
+        <div class="flexitem center column company">
+          <div class="companyContainer">
+            <img class="company-image" src="./images/Salesforce.png" alt="Salesforce">
+            <h3 class="company-text">Software Engineer Intern
+              Finli
+              Sunnyvale, CA | 07/2020 - present
+              Migrated and revamped the iOS/Android mobile app built on React Native for the Version 2 launch.
+              Updated legacy documentation with clear, actionable step-by-step commands for Docker, PostgreSQL database
+              and TablePlus,
+              improving development environment setup process for new engineers.</h3>
+          </div>
+          <div class="companyContainer"><img class="company-image" src="./images/boeing.png" alt="Boeing">
+            <h3 class="company-text">Software Engineering Teaching Assistant
+              Coding Dojo
+              Sunnyvale, CA | 08/2020 - present
+              Teaching and supporting students who are learning remotely through the Online Coding Bootcamp program.
+              Providing mentorship and help across various tech stacks (Python Django, MERN, Java Spring/Spring Boot,
+              Web
+              Fundamentals).</h3>
+          </div>
+          <div class="companyContainer">
+            <img src="./images/Microsoft.png" class="company-image" alt="Microsoft">
+            <h3 class="company-text">Global Compliance, Hardware Technologies
+              Google, LLC
+              Sunnyvale, CA | 08/2019 - 01/2020
+              Shortened average supplier turnaround time (TAT) by 30% by evaluating performance through data analysis of
+              task metadata
+              such as end-to-end completion time and codified delay signals with Google Sheets functions.
+              Identified bottlenecks and presented actionable visualizations to key stakeholders on a monthly basis,
+              leading to
+              reduced operational overhead.</h3>
+          </div>
+
+          <!-- fix the text color============= -->
+        </div>
+      </div>
+      <div class="bgimg-3">
+        <div class="flexitem center">
+          <h1>Education</h1>
+        </div>
+      </div>
+      <div class="bgimg-1 greyrow">
+        <div class="flexitem center column company">
+          <div class="companyContainer">
+            <img class="company-image" src="./images/Dojo.png" alt="Dojo">
+            <h3 class="company-text">Software Engineer Intern
+              Finli
+              Sunnyvale, CA | 07/2020 - present
+              Migrated and revamped the iOS/Android mobile app built on React Native for the Version 2 launch.
+              Updated legacy documentation with clear, actionable step-by-step commands for Docker, PostgreSQL database
+              and TablePlus,
+              improving development environment setup process for new engineers.</h3>
+          </div>
+          <div class="companyContainer"><img class="company-image" src="./images/UVA.png" alt="UVA">
+            <h3 class="company-text">Software Engineering Teaching Assistant
+              Coding Dojo
+              Sunnyvale, CA | 08/2020 - present
+              Teaching and supporting students who are learning remotely through the Online Coding Bootcamp program.
+              Providing mentorship and help across various tech stacks (Python Django, MERN, Java Spring/Spring Boot,
+              Web
+              Fundamentals).</h3>
+          </div>
+          <div class="companyContainer">
+            <img src="./images/AAU.png" class="company-image" alt="AAU">
+            <h3 class="company-text">Global Compliance, Hardware Technologies
+              Google, LLC
+              Sunnyvale, CA | 08/2019 - 01/2020
+              Shortened average supplier turnaround time (TAT) by 30% by evaluating performance through data analysis of
+              task metadata
+              such as end-to-end completion time and codified delay signals with Google Sheets functions.
+              Identified bottlenecks and presented actionable visualizations to key stakeholders on a monthly basis,
+              leading to
+              reduced operational overhead.</h3>
+          </div>
+          <div class="companyContainer"><img class="company-image" src="./images/Cisco.png" alt="Cisco_Techno">
+            <h3 class="company-text">Software Engineering Teaching Assistant
+              Coding Dojo
+              Sunnyvale, CA | 08/2020 - present
+              Teaching and supporting students who are learning remotely through the Online Coding Bootcamp program.
+              Providing mentorship and help across various tech stacks (Python Django, MERN, Java Spring/Spring Boot,
+              Web
+              Fundamentals).</h3>
+          </div>
+        
+          <!-- fix the text color============= -->
+        </div>
+      </div>
+      <div class="footer">
+          <h2 class="item">Contact me</h2>
+
+        <div class="footerimages item">
+          <div class="footerItem" onclick="window.open('https://github.com/tmeresa19')">
+
+            <img class="footerimage" onmouseover="show('GithubText')" onmouseout="hide('GithubText')"
+              src="./images/github.png" alt="github" />
+            <h3 id="GithubText" class="text">Github</h3>
+          </div>
+          <!-- ========fix the link for email -->
+          <div class="footerItem">
+            <img class="footerimage"
+              onclick="window.open('https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmXGGVKLzgwFpDZNkRKQbKkSVpflZKtkTplJlXZDzVLvfTzrxqPpCxRJCnKcHSgDXZzxnC')"
+              onmouseover="show('GmailText')" onmouseout="hide('GmailText')" src="./images/gmail.png" alt="gmail" />
+            <h3 id="GmailText" class="text">Email</h3>
+          </div>
+          <div class="footerItem" onclick="window.open('https://www.linkedin.com/in/tigist-meresa-a94450133/')">
+            <img class="footerimage" onmouseover="show('LinkedinText')" onmouseout="hide('LinkedinText')"
+              src="./images/linkedin.png" alt="linkedin" />
+            <h3 id="LinkedinText" class="text">Linkedin</h3>
+          </div>
+          <!-- when clicking the resume image, anyone shouldn't get "You need access" message rather, the resume should be opened for them in gmail drive or in pdf -->
+          <div class="footerItem"
+            onclick="window.open('https://docs.google.com/document/d/1PaGvqehvcj5hPY6KKm1VZCH2MKYiN79M8MCeXURuTQc/edit')">
+            <img class="footerimage" onmouseover="show('ResumeText')" onmouseout="hide('ResumeText')"
+              src="./images/pdf.png" alt="Resume" />
+            <h3 id="ResumeText" class="text">Resume</h3>
+          </div>
+        </div>
+        <h4 class="item h4">© 2023 Tigist Meresa</h4>
+
+        <div class="footerimages">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
 </html>
