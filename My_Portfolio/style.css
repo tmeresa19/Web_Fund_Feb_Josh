@@ -1,7 +1,8 @@
 *,
 body {
     padding: 0;
-    margin: 0
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .mycontainer {
@@ -31,15 +32,15 @@ body {
 }
 
 .bgimg-1 {
-    background-image: url(./images/pic1.jpg);
+    background-image: url(./images/nightImage.jpg);
 }
 
 .bgimg-2 {
-    background-image: url(./images/pic1best.jpg);
+    background-image: url(./images/nightimage2.jpg);
 }
 
 .bgimg-3 {
-    background-image: url(./images/pic2.jpg);
+    background-image: url(./images/nightimage2.jpg);
 }
 
 .bgimg-4 {
@@ -118,6 +119,7 @@ body {
     align-items: center;
 }
 
+
 .about-me {
     display: flex;
     flex: 1;
@@ -140,7 +142,7 @@ body {
 }
 
 .aboutme-image {
-    width: 370px;
+    width: 400px;
     border-radius: 100%;
 }
 
@@ -186,7 +188,7 @@ body {
 }
 
 .navlinkimg {
-    width: 30px;
+    width: 50px;
     border-radius: 50%;
 }
 
@@ -316,7 +318,7 @@ h3 {
     display: flex;
     max-width: 60%;
     width: 60%;
-    min-height: 300px;
+    min-height: 100px;
     gap:20%
 }
 .company{
